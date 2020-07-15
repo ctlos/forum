@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} =off
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+  RewriteRule ^index\.php$ https://%{HTTP_HOST}/ [R=301,L]
+</IfModule>

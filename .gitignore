@@ -1,0 +1,11 @@
+/cache/*
+!/cache/index.html
+!/cache/.htaccess
+/include/config.php
+/include/user/*
+!/include/user/index.html
+/img/avatars/*
+!/img/avatars/index.html
+/img/members/*
+!/img/members/nofile.gif
+*~

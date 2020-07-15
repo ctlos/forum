@@ -21,6 +21,8 @@ Modified by Visman & Alex Creio. FluxBB 1.5.11, rev 80
 
 ## Install
 
+- Lemp stack: https://github.com/creio/lemp
+
 ```sh
 # start
 http://localhost/install.php
